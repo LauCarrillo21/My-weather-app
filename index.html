@@ -12,8 +12,9 @@
 <body>
 
 <div class="container">
-
+<div class="weather-app-wrapper">
     <div class="weather-app">
+        <div class="overview">
     <h1> 
         New York
     </h1>
@@ -25,12 +26,23 @@
             Clear
         </li>
     </ul>
+        </div>
 
     <div class="row">
         <div class="col-6">
+
+            <div class="clearfix weather-temperature">
             <img src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
-             alt="sunny_s_cloudy"/>
-             12°C | °F
+             alt="sunny_s_cloudy"
+             class="float-start"
+             />
+
+             <div class="float-start">
+             <strong>  12</strong><span class="units"> °C | <a href="#"> °F</a> </span>
+
+            </div>
+
+            </div>
         </div>
 
         <div class="col-6">
@@ -50,13 +62,14 @@
         </div>
 
     </div>
-    <small>
-        <a 
-        href="https://github.com/LauCarrillo21/My-weather-app"
-        target="_blank">
-         Open-source code </a> , by Laura Carrillo
-    </small>
-    </div>
+</div>
+<small>
+    <a 
+    href="https://github.com/LauCarrillo21/My-weather-app"
+    target="_blank">
+     Open-source code </a> , by Laura Carrillo
+</small>
+</div>
 
    
 
