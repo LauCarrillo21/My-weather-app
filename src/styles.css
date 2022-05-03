@@ -1,7 +1,8 @@
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 
 h1 {
@@ -37,8 +38,8 @@ li {
     max-width: 600px;
     margin: 30px auto;
     padding: 20px;
-    border: 1px solid #dadde1;
-    border-radius: 5px;
+    border: 1px solid rgba(105, 103, 104, 0.8);
+    border-radius: 13px;
 
 }
 
