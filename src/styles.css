@@ -1,16 +1,17 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color:#212529;
 }
 
 
 
 h1 {
-    color: #878787;
+    color: #212529;;
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 28px;
-    margin-bottom: 0;
+    margin-bottom: 10;
 }
 
 ul {
@@ -21,10 +22,11 @@ ul {
 li {
     list-style: none;
     margin: 0;
+    margin-top: 10;
     padding: 0;
-    color: rgb(135, 135, 135);
-    font-size: 16px;
-    font-weight: 100;
+    color: #212529;
+    font-size: 18px;
+    font-weight: 300;
     line-height: 19px;
     text-transform: capitalize;  
 } 
@@ -32,14 +34,16 @@ li {
 .weather-app-wrapper {
     max-width: 600px;
     margin: 30px auto;
+
 }
 
 .weather-app {
     max-width: 600px;
     margin: 30px auto;
     padding: 20px;
-    border: 1px solid rgba(105, 103, 104, 0.8);
-    border-radius: 13px;
+    border: 1px solid #dadde1;
+    border-radius: 5px;
+    background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
 
 }
 
@@ -94,4 +98,45 @@ li {
 
 .weather-forecast-temperatures {
     font-size: 13px;
+}
+
+.btn-primary {
+    color: #dadde1;
+    background-color: black;
+    border-color: black;
+    transition: all 200ms;
+}
+
+.btn-primary:hover {
+    background-color: #4F4864;
+    color: white;
+    border-color: #4F4864;
+}
+
+.open {
+    color:#c3195d;
+    font-weight:24px;
+    margin-top:0;
+    text-decoration:none;
+    transition:all 200ms;
+}
+
+.open:hover {
+    cursor:pointer;
+    text-decoration:none;
+    color:#680747;
+}
+
+.profile {
+    color:#c3195d;
+    font-weight:24px;
+    margin-top:0;
+    text-decoration:none;
+    transition:all 200ms;
+}
+
+.profile:hover {
+    cursor:pointer;
+    text-decoration:none;
+    color:#680747;
 }
